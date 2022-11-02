@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    font-family: 'Epilogue', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+}
+
+body
+{
+    background-color: hsl(0, 0%, 98%);
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hijos>img
+{
+    width: 100%;
+}
+
+.logo_left>img{
+    height: 100%;
+}
+
+.cuerpo
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.hijos
+{
+    width: 40%;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.hijos>h1{
+    padding: 2rem;
+    font-weight: 700px;
+    font-size: 60px;
+    text-align:left;
+}
+
+.hijos>p{
+    padding: 1rem;
+    font-weight: 500px;
+    font-size: 18px;
+    text-align: left;
+    color: hsl(0, 0%, 41%);
+}
+
+.nav__options,.nav__icons
+{
+    display: flex;
+}
+
+.client
+{
+    display: flex;
+    gap:1rem;
+}
+
+.nav__options 
+{
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav__options>li
+{
+    cursor:pointer;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.nav__icons
+{
+    list-style: none;
+    gap: 2rem;
+    color:hsl(0, 0%, 41%);
+}
+
+.logo_left
+{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.more_options
+{
+    position: absolute;
+    top: 100%;
+    border: 2px solid rgb(221, 221, 221);
+    background-color: #fff;
+    padding: 1rem;
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    gap: .7rem;
+    border-radius: 5%;
+}
+
+.nav__li
+{
+    color: hsl(0, 0%, 41%);
+}
+
+.li__inte
+{
+    display: flex;
+    gap: 3px;
+}
+
+.register
+{
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 6%;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav__icons>span
+{
+    cursor:pointer;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.nav__li:hover > .more_options
+{
+    display: flex;
+}
+
+.nav__li:hover{
+    color:hsl(0, 0%, 8%);
+}
+
+.nav__li:hover>span>img
+{
+    transform: rotate(180deg);
+}
+
+.li__inte:hover{
+    color:hsl(0, 0%, 41%);
+}
+
+.register:hover{ 
+    color:hsl(0, 0%, 8%);
+    border: 2px solid hsl(0, 0%, 8%);
+}
+
+.login:hover{
+    color:hsl(0, 0%, 8%);
+    border: 2px solid hsl(0, 0%, 8%);
+    border-radius: 5%;
+}
+
+.boton
+{
+    border: 2px solid hsl(0, 0%, 8%);
+    width: 25%;
+    background-color: hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 98%);
+    padding: .8rem;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
